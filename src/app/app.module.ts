@@ -6,6 +6,7 @@ import { SearchFormComponent } from './components/search-form/search-form.compon
 import { NewsListComponent } from './components/news-list/news-list.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SpinnerComponent } from './shared/spinner/spinner.component';
+import { FormsModule } from '@angular/forms';// Important
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SpinnerComponent } from './shared/spinner/spinner.component';
     SpinnerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
