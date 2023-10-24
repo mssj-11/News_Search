@@ -6,10 +6,10 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   styleUrls: ['./search-form.component.css']
 })
 export class SearchFormComponent implements OnInit {
-  @Output() selectedParameters = new EventEmitter<any>;
+  @Output() selectedParameters = new EventEmitter<any>()
 
-  selectedCategory = "general";
-  selectedCountry = "mx";
+  selectedCategory = 'general';
+  selectedCountry = 'mx';
 
   categories: any[] = [
     {value: 'general', name: 'General'},
@@ -40,7 +40,7 @@ export class SearchFormComponent implements OnInit {
   searchNew() {
     const PARAMETERS = {
       category: this.selectedCategory,
-      countries: this.selectedCountry,
+      country: this.selectedCountry,
     }
     this.selectedParameters.emit(PARAMETERS)
   }
