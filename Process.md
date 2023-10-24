@@ -40,3 +40,6 @@ ng g c shared/spinner
 ```sh
 ng g s services/news
 ```
+
+##  Spinner
+[Spin](https://tobiasahlin.com/spinkit/)
