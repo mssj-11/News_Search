@@ -1,3 +1,9 @@
+#	Search News API
+
+La version actual gratuita de la API **News API** solo permite TESTEAR la api sin imagenes y solo funciona de manera local.
+
+<p align="center"><img src="screencapture.png" /></p>
+
 # [Search News](https://mss-search-news.netlify.app/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
